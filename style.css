@@ -3,3 +3,7 @@
 h2 {background-color: aquamarine;
 border: double;
 text-align: center;}
+
+.container1 {
+    display: flex;
+}
