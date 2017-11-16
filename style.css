@@ -1,6 +1,5 @@
-* {width: 100%}
 
-h2 {background-color: aquamarine;
+.header {background-color: aquamarine;
 border: double;
 text-align: center;}
 
