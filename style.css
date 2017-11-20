@@ -1,8 +1,43 @@
 
-.header {background-color: aquamarine;
-border: double;
-text-align: center;}
-
-.container1 {
+.flexcontainer1 {
     display: flex;
+    background-color: DodgerBlue;
+    margin: 2%;
+    text-align: center;
+}
+
+.flexcontainer1>div { background-color: #3fe802;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+width: 32%;}
+
+.flexcontainer2 {
+    display: flex;
+    background-color: red;
+    margin: 2%;
+    text-align: center;
+}
+
+.flexcontainer2>div {
+    background-color: #f4f442;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+    width: 32%;
+}
+
+.flexcontainer3 {
+    display: flex;
+    background-color: #b20071;
+    margin: 2%;
+    text-align: center;
+}
+
+.flexcontainer3>div {
+    background-color: #41dff4;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+    width: 32%;
 }
