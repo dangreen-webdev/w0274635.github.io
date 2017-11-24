@@ -40,7 +40,8 @@
         visibility: hidden;
         display: none;
     }
-
+    #container {width: 100%;
+        margin-left: -2px;}
 
 }
 
