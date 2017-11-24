@@ -26,6 +26,12 @@
         display: none;
     }
 
+    .dropbtn2 {
+        visibility: visible !important;
+        display: block;
+
+    }
+
     .collapsingmenu {
         width: 10% !important;
     }
@@ -49,8 +55,7 @@
         visibility: hidden;
         display: none;
     }
-    #container {width: 100%;
-        margin-left: -2px;}
+    #container {width: 100%;}
 
 }
 
@@ -184,10 +189,6 @@ address {
 
 }
 
-.collapsingmenu {
-    width: 0.0001px;
-}
-
 .logo {
     width: 30%;
     max-width: 30%;
@@ -196,6 +197,10 @@ address {
     border-color: #1b75bc;
     border-radius: 8px;
     margin: 0.5%;
+}
+
+.socialmedia {
+
 }
 
 .dropbtn {
@@ -259,7 +264,7 @@ address {
 .footer {
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 150%;
     color: black;
     text-align: center;
 }
@@ -267,3 +272,45 @@ address {
 .socialmedia {
 
 }
+
+.dropbtn2 {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn2:hover, .dropbtn2:focus {
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

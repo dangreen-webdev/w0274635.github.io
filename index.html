@@ -26,7 +26,39 @@
     <header>
         <img class="logo" src="jb_logo.png">
         <img class="headerpic" src = "jb_image01.png">
-        <img class="collapsingmenu" src="jb_navicon.png"\>
+        <div class="dropdown2">
+            <img onclick="myFunction()" class="dropbtn2" src="jb_navicon.png"></button>
+            <div id="myDropdown2" class="dropdown-content2">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <script>
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown2").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn2')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content2");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+    </header>
+    <img class="socialmedia" src ="fbicon.png">
+    <img class="socialmedia" src ="      twittericon.png">
 
     </header>
 
@@ -183,8 +215,7 @@
 
         <a href="mailto:gall@example.com/surf?Subject=Hello%20again" target="_top">Email Us</a>
 
-        <img class="socialmedia" src ="fbicon.png">
-        <img class="socialmedia" src ="      twittericon.png">
+
 
     </footer>
 
@@ -196,4 +227,3 @@
 
 </body>
 </html>
-
