@@ -19,12 +19,21 @@
 
 */
 
+
 @media only screen and (max-width: 1177px) {
     .headerpic {
         visibility: hidden;
         display: none;
     }
 
+    .collapsingmenu {
+        width: 10% !important;
+    }
+
+    body > div > nav {
+        visibility: hidden;
+        display: none;
+    }
 
     body > div > main {
         order: 3; min-height: 50px; flex: 1;
@@ -176,8 +185,7 @@ address {
 }
 
 .collapsingmenu {
-    visibility: hidden;
-    display: none;
+    width: 0.0001px;
 }
 
 .logo {
