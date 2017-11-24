@@ -1,37 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Dan Green's Webpage</title>
-    <link rel="stylesheet" href="style.css">
+    <!--
+           New Perspectives on HTML5 and CSS3, 7th Edition
+           Tutorial 5
+           Case Problem 4
 
+           Jersey Buoys home page
+           Author: Dan Green
+           Date: November 21st, 2017
+
+           Filename: jb_home.html
+          -->
+
+    <title>Jersey Buoys Surfing School</title>
+    <link rel = "stylesheet" type="text/css" href="jb_styles.css">
 </head>
+
 <body>
 
-<div class="flexcontainer1">
 
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
 
+<div>
+
+    <header>
+        <img class="logo" src="jb_logo.png">
+        <img class="headerpic" src = "jb_image01.png">
+        <img class="collapsingmenu" src="jb_navicon.png"\>
+
+    </header>
+
+    <nav id="nav">
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Home</button>
+
+        </div>
+
+
+
+
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Classes</button>
+            <div class="dropdown-content">
+                <a href="#">Intro Surfing</a>
+                <a href="#">Surfing I</a>
+                <a href="#">Surfing II</a>
+                <a href="#">Surfing III</a>
+                <a href="#">Master Surfing</a>
+            </div>
+        </div>
+
+
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Camps</button>
+            <div class="dropdown-content">
+                <a href="#">1-Day Grommets</a>
+                <a href="#">3-Day Grommets</a>
+                <a href="#">5-Day Grommets</a>
+                <a href="#">Men's Retreat</a>
+                <a href="#">Adult Excursions</a>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Store</button>
+            <div class="dropdown-content">
+                <a href="#">Gear</a>
+                <a href="#">Quiver</a>
+                <a href="#">Clothing</a>
+                <a href="#">Shopping Cart</a>
+                <a href="#">My Account</a>
+                <a href="#">Tracking</a>
+            </div>
+        </div>
+
+
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Blog</button>
+
+        </div>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Staff</button>
+
+        </div>
+
+
+    </nav>
+
+
+    <main id="main">
+
+        <h3 id="mainheader">Welcome to Jersey Buoys</h3>
+        <p>
+            <img id="articlepic" src="jb_image02.png">
+            <br>
+
+            Come enjoy the excitement of riding the waves along the Jersey Shore with Jersey Buoys.
+            Our nationally-accredited school brings its 22 years of experience in helping you become
+            the surfer you've dreamed of becoming.
+        </p>
+
+        <p>
+            Our classes are tailored to your needs. We provide instruction in basic surfing techniques
+            and advanced techniques from cutbacks to boosts to hobble-bobbles. Choose a private or
+            group lesson. Grommets can participate in 1, 3, or 5 half-day courses. We also sponsor
+            surfing camps with catered meals and lodging.
+        </p>
+
+        <p>
+            Whether a Barney or a Gandolf, you are always safe in our waters. Our experienced
+            instructors are accredited by the National Instructors and Surf Schools Association.
+            They are fully Red Cross and First Aid certified. In addition to being great teachers,
+            every instructor has gone through extensive lifeguard training.
+        </p>
+
+        <p>
+            The next big wave is approaching: Catch it with Jersey Buoys. Call to set up an
+            appointment, grab a board from the quiver and head to the Green Room.
+        </p>
+
+
+    </main>
+
+
+    <aside id="aside">
+
+        <h2 id="sidebarh2">Surfer Slang</h2>
+
+
+
+        <h4>Barney</h4>
+        <p> A new and inexperienced surfer. </p>
+
+        <h4>Boost</h4>
+        <p>To take off from a wave into an aeria.l<p>
+
+        <h4>Cutback</h4>
+        <p>To change direction when streaking ahead of the curl.</p>
+
+        <h4>Gandolf</h4>
+        <p>An experienced wise older surer.</p>
+
+        <h4>Green Room</h4>
+        <p>The inside of a tube.</p>
+
+        <h4>Grommet</h4>
+        <p>A very young surfer - a child.</p>
+
+        <h4>Hobble-bobble</h4>
+        <p>An aerial launch while flapping your arms like a bird.</p>
+
+        <h4>Quiver</h4>
+        <p>A collection of surfboards.</p>
+
+    </aside>
+
+
+    <footer class="footer">
+
+        <p>Jersey Buoys
+            Owner: Tony Gallo </p>
+
+        <address>MAILING ADDRESS
+            141 Hodad Drive
+            Ocean City, NJ 08226</address>
+
+        <a href="tel:1-609-555-7873">(609) 555-7873</a>
+
+        <a href="mailto:gall@example.com/surf?Subject=Hello%20again" target="_top">Email Us</a>
+
+        <img class="socialmedia" src ="fbicon.png">
+        <img class="socialmedia" src ="      twittericon.png">
+
+    </footer>
 
 
 </div>
 
-<div class="flexcontainer2">
 
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
 
-</div>
-
-<div class="flexcontainer3">
-
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-</div>
 
 </body>
 </html>
