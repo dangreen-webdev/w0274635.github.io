@@ -1,18 +1,61 @@
-* {font-family: Helvetica}
+* {font-family: Impact}
 
 body > div > header {
     color: black;
     text-align: center;
-    width: 100%;
     margin: auto;
-    flex: 1.5;
+    flex: 0.5;
     order: 1;
-    background-color: #3b3e44;
+    background-image: url("cool-background.jpg");
     border: solid 4px;
-    border-color: crimson;
+    border-color: darkblue;
     border-radius: 7px;
-    color: ghostwhite;
+    color: darkblue;
     min-width: 35%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    font-size: 150%;
+    font-family: helvetica;
+    max-width: 100%;
+    padding: 10%;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    width: 18%;
+    display: inline-block;
+    background-color: ghostwhite;
+    border: 4px;
+    border-style: ridge;
+    border-color: black;
+
+}
+
+
+li a.active {
+    background-color:black;
+    color: white;
+    border: solid 4px;
+    border-color: ghostwhite;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+
 }
 
 body > div {width: 60%;
@@ -22,30 +65,41 @@ body > div {width: 60%;
 }
 
 body {width: 100%;
-    background-color: #b6c1d3;
-}
+background-image: url("yes.jpg");
+background-size: }
 
-.nav { color: black;
+.nav {color: black;
     text-align: center;
     width: 60%;
     margin: auto;
     flex: 1.5;
     order: 1;
-    background-color: #3b3e44;
-    border: solid 4px;
-    border-color: crimson;
-    border-radius: 7px;
-    color: ghostwhite;
     min-width: 35%;
     margin-top:5px;
 }
 
-.menu {background-color: crimson;
+.menu {background-color:transparent;
 width: 17%;
 display: inline-block;
 height: 30px;
 border: solid;
-border-color: #b6c1d3;
+border-color: #ff6c16;
 border-radius: 5px;
 text-align: center;
-padding: 5px;}
+padding: 5px;
+color: ghostwhite;
+background-color: darkblue;}
+
+.main {width: 60%;
+margin: auto;
+    background-color: ghostwhite;
+    border-color: darkred;
+margin-top: 5px;
+    border: solid 5px;
+    border-color: black;
+border-style: ridge;}
+
+img {border:
+    margin: 10px;
+    border-right: solid 5px;
+}
