@@ -94,11 +94,19 @@ background-size: }
 }
 
 #indexh2 {color: #5e5e63;
-    text-decoration: overline;}
+    text-decoration:;
+width: 25%;
+margin-left: 31%;
+text-decoration: overline;
+padding-top: -2%;}
 
 .logo {
     margin-top: 2%;
     margin-left: 2%;
+}
+
+.maincontent {
+    margin: 2.2%;
 }
 
 .menu {background-color:transparent;
@@ -128,6 +136,7 @@ border-style: ridge;}
     border: solid 5px;
     border-style: ridge;
     border-color: black;
+    border-radius: 200px;
 }
 
 input[type=text], select, textarea {
@@ -141,6 +150,15 @@ input[type=text], select, textarea {
     resize: vertical
 }
 
+#contactheader {
+    position: relative;
+}
+
+form {
+    width: 40%;
+ margin-left: 35%;
+    margin-top: 25%;
+}
 
 input[type=submit] {
     background-color: #4CAF50;
@@ -160,5 +178,6 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    width: inherit;
 }
 
