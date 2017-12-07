@@ -16,15 +16,24 @@ body > div > header {
 
 .maincontent {
     font-family: helvetica;
-    font-size: 120%;
+    font-size: 110%;
+    border: none;
 }
+
+.maincontentlast {
+    font-family: helvetica;
+    font-size: 110%;
+border: none;
+    display: flex;
+}
+
+.picdiv {width: 500px;}
 
 .mainheader {
    font-family: helvetica;
     font-weight: bolder;
     font-size: 210%;
     margin-left: 30%;
-    margin-top: -23%;
     position: relative;
     text-decoration: underline;
 }
@@ -76,6 +85,7 @@ li a:hover:not(.active) {
 body > div {width: 60%;
     margin: auto;
     display: flex;
+    min-height: 500px;
 
 }
 
