@@ -27,6 +27,11 @@ border: none;
     display: flex;
 }
 
+.goals {width: 45%;
+margin-left: 25%;
+border:none;
+font-family: helvetica}
+
 .picdiv {width: 500px;}
 
 .mainheader {
