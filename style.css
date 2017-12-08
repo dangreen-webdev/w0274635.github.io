@@ -50,6 +50,12 @@ font-family: helvetica}
     text-decoration: underline;
 }
 
+.samplecontent {max-width:100%;
+border: solid 5px;
+    border-radius: 6px;
+margin-left: 10%;
+width: 80%}
+
 ul {
     list-style-type: none;
     margin: 0;
