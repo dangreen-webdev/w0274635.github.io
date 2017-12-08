@@ -1,4 +1,4 @@
-* {font-family: Impact}
+* {font-family: helvetica;}
 
 body > div > header {
     color: black;
@@ -27,6 +27,11 @@ border: none;
     display: flex;
 }
 
+.certifications {
+    border: none;
+    display: inline-block;
+    margin: 5%
+}
 .goals {width: 45%;
 margin-left: 25%;
 border:none;
@@ -50,6 +55,10 @@ ul {
     width: 100%;
 }
 
+.resumecontent {font-family: helvetica;
+    width: 40%;
+
+margin: auto;}
 
 li a {
     display: block;
