@@ -1,3 +1,9 @@
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
+
 * {font-family: helvetica;}
 
 body > div > header {
@@ -68,6 +74,7 @@ ul {
 margin: auto;
 margin-bottom: 3.5%;
 border: ridge;
+    border-radius: 6px;
 padding: 5%}
 
 li a {
@@ -129,8 +136,8 @@ background-size: }
 
 #indexh2 {color: #5e5e63;
     text-decoration:;
-width: 25%;
-margin-left: 31%;
+width: 50%;
+margin-left: 35%;
 text-decoration: overline;
 padding-top: -2%;}
 
