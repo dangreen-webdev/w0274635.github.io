@@ -20,6 +20,8 @@ body > div > header {
     border: none;
 }
 
+p > a {border: solid 5px;}
+
 .maincontentlast {
     font-family: helvetica;
     font-size: 110%;
@@ -56,9 +58,11 @@ ul {
 }
 
 .resumecontent {font-family: helvetica;
-    width: 40%;
-
-margin: auto;}
+    width: 70%;
+margin: auto;
+margin-bottom: 3.5%;
+border: ridge;
+padding: 5%}
 
 li a {
     display: block;
