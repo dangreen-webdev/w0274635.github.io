@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style>
+    @media (min-width: 1px) {
+    .container{
+        max-width: 40%;
+    }
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+</style>
+
+  </head>
+  <body>
+  
+    <div class="container">
+        <nav style="background-color: black" class="navbar navbar-inverse">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">My Work</a></li>
+                  <li><a href="#">About Me</a></li>
+                  <li><a href="#">GitHub</a></li>
+                  <li><a href="#">Resume</a></li>
+                  <li><a href="#">Work Experience</a></li>
+                </ul>
+              </nav>
+            </div>
+    
+<div class="container">
+
+    <form>
+            <h1>Get In Touch</h1>
+                    <div class="form-group">
+                    <label for="firstnameinput">First Name</label>
+                    <input type="text" class="form-control" id="firstnameinput"  placeholder="First Name">
+                    </div>
+
+                    <div class="form-group">
+                    <label for="lastnameinput">Last Name</label>
+                    <input type="text" class="form-control" id="lastnameinput" placeholder="Last Name">
+                    </div>
+
+                    <div class="form-group">
+                    <label for="phoneinput">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneinput"  placeholder="Phone Number">
+                    </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter email">
+                    </div>
+
+                    <div class="form-group">
+                            <label for="select">Topic</label>
+                            <select class="form-control" id="select">
+                                    <option value="volvo">Web Development</option>
+                                    <option value="saab">Digital Marketing</option>
+                                    <option value="mercedes">SEO</option>
+                                  </select>
+                            </div>
+
+                    <div class="form-group">
+                            <label>What is the best way to reply to you?</label><br>
+                            <div class="radio">
+                                    <label><input type="radio" name="optradio" checked>Phone</label>
+                                  </div>
+                                  <div class="radio">
+                                    <label><input type="radio" name="optradio">Email</label>
+                                  </div>
+                    </div>
+
+                    <button class="button"><span>Send </span></button>
+        </form>
+
+        </div>
+
+        <div class="footer">
+                <p>Dan Green - W0274635</p>
+              </div>
+
+  </body>
+</html>
