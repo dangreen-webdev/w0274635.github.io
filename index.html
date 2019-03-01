@@ -1,141 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>title</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dan Green Assignment 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
 
-<style>
-    @media (min-width: 1px) {
-    .container{
-        max-width: 40%;
-    }
-}
+    <h2 style="text-align: center; margin-top: 3%;" >Security Vulnerability Detection Software</h2>
 
+        <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Licensing</th>
+                    <th scope="col">Pricing</th>
+                    <th scope="col">Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                
+                    <td>SolarWinds Network Configuration Manager</td>
+                    <td>This application security testing platform detects the most sophisticated flaws in websites and web applications, thanks to intelligent automation of penetration testing.</td>
+                    <td>Commercial</td>
+                    <td>30 Day trial</td>
+                    <td>https://www.beyondtrust.com/products/retina-network-security-scanner/</td>
+                  </tr>
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-}
+                  <tr>
+                        <td>OpenVAS</td>
+                        <td>OpenVAS is a free cross-platform vulnerability scanner, with over 50,000 network vulnerability tests available, including authenticated and unauthenticated testing.</td>
+                        <td>Open source</td>
+                        <td>Free</td>
+                        <td>http://openvas.org/</td>
+                      </tr>
 
-.button {
-  border-radius: 4px;
-  background-color: black;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
+                      <tr>
+                            <td>ImmuniWeb</td>
+                            <td>ImmuniWeb, from Swiss firm High-Tech Bridge, comes filled with features, relying on sophisticated machine learning and artificial intelligence automation.</td>
+                            <td>Commercial</td>
+                            <td>$l000 per month</td>
+                            <td>https://www.htbridge.com/immuniweb/</td>
+                          </tr>
 
+                          <tr>
+                                <td>Netsparker</td>
+                                <td>Available as a Windows desktop application or web application, Netsparker comes with built-in penetration testing tools and advanced reporting capabilities. </td>
+                                <td>Open source</td>
+                                <td>Free</td>
+                                <td>https://www.acunetix.com/vulnerability-scanner/</td>
+                              </tr>
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+                              <tr>
+                                    <td>Nexpose</td>
+                                    <td>Nexpose vulnerability scanner is designed to identify active services, open ports and running applications across machines. </td>
+                                    <td>Commercial</td>
+                                    <td>Free trial</td>
+                                    <td>https://www.rapid7.com/products/nexpose/download/</td>
+                                  </tr>
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+                                  <tr>
+                                        <td>Retina</td>
+                                        <td>Retina Network Security Scanner is another free and powerful vulnerability scanner, which also serves as the scan engine for Retina CS Enterprise Vulnerability Management. </td>
+                                        <td>Open source</td>
+                                        <td>Free </td>
+                                        <td>https://www.beyondtrust.com/products/retina-network-security-scanner/</td>
 
-#active {
-    background-color: #272828;
-}
+                                        <tr>
+                                                <td>Nessus</td>
+                                                <td>Nessus is a proprietary vulnerability scanner and provides scans to detect vulnerabilities that allow hackers to control or access sensitive data on a system, misconfiguration, default passwords and more. </td>
+                                                <td>Commercial</td>
+                                                <td>$3100 per year</td>
+                                                <td>https://www.tenable.com/products/nessus/nessus-professional</td>
+                                              </tr>
+                                      </tr>
 
-.button:hover span {
-  padding-right: 25px;
-}
+                                      <tr>
+                                            <td>Core Impact</td>
+                                            <td>Core Impact is designed to provide efficient vulnerability assessments and penetration security testing throughout organisations. </td>
+                                            <td>Commercial</td>
+                                            <td>NA</td>
+                                            <td>https://www.coresecurity.com/vulnerability-products</td>
+                                          </tr>
+                                  </tr>
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-</style>
-
-  </head>
-  <body>
-  
-    <div class="container">
-        <nav style="background-color: black" class="navbar navbar-inverse">
-                <ul class="nav navbar-nav">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">My Work</a></li>
-                  <li><a href="#">About Me</a></li>
-                  <li><a href="#">GitHub</a></li>
-                  <li><a href="#">Resume</a></li>
-                  <li id="active"><a href="http://w0274635.github.io">Contact Me</a></li>
-                </ul>
-              </nav>
-            </div>
+                                  <tr>
+                                        <td>Personal Software Inspector</td>
+                                        <td>PSI (Personal Software Inspector) is a free security scanner that enables users to scan, detect and secure applications on their computers. </td>
+                                        <td>Open source</td>
+                                        <td>Free</td>
+                                        <td>https://www.flexera.com/enterprise/products/software-vulnerability-management/personal-software-inspector/</td>
+                                      </tr>
+                              </tr>
+                              
+                              <tr>
+                                    <td>Acunetix</td>
+                                    <td>Acunetix will scan websites and web applications including open source software and custom-built applications for hidden vulnerabilities and security flaws. </td>
+                                    <td>Commerical</td>
+                                    <td>$4495 per year</td>
+                                    <td>https://www.acunetix.com/vulnerability-scanner/</td>
+                                  </tr>
+                          </tr>
     
-<div class="container">
 
-    <form>
-            <h1>Get In Touch</h1>
-                    <div class="form-group">
-                    <label for="firstnameinput">First Name</label>
-                    <input type="text" class="form-control" id="firstnameinput"  placeholder="First Name">
-                    </div>
 
-                    <div class="form-group">
-                    <label for="lastnameinput">Last Name</label>
-                    <input type="text" class="form-control" id="lastnameinput" placeholder="Last Name">
-                    </div>
-
-                    <div class="form-group">
-                    <label for="phoneinput">Phone Number</label>
-                    <input type="text" class="form-control" id="phoneinput"  placeholder="Phone Number">
-                    </div>
-
-                    <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter email">
-                    </div>
-
-                    <div class="form-group">
-                            <label for="select">Topic</label>
-                            <select class="form-control" id="select">
-                                    <option value="volvo">Web Development</option>
-                                    <option value="saab">Digital Marketing</option>
-                                    <option value="mercedes">SEO</option>
-                                  </select>
-                            </div>
-
-                    <div class="form-group">
-                            <label>What is the best way to reply to you?</label><br>
-                            <div class="radio">
-                                    <label><input type="radio" name="optradio" checked>Phone</label>
-                                  </div>
-                                  <div class="radio">
-                                    <label><input type="radio" name="optradio">Email</label>
-                                  </div>
-                    </div>
-
-                    <button class="button"><span>Send </span></button>
-        </form>
-
-        </div>
-
-        <div class="footer">
-                <p>Dan Green - W0274635</p>
-              </div>
-
-  </body>
+                </tbody>
+              </table>
+    
+</body>
 </html>
